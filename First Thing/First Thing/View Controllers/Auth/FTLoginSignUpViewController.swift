@@ -11,6 +11,7 @@ import UIKit
 class FTLoginSignUpViewController: UIViewController, ARSignUpFromViewDelegate {
     
     @IBOutlet weak var signupFormView: ARSignUpFormView!
+    @IBOutlet weak var titleLabel: UILabel!
     
     let transition = PopAnimatior()
     
@@ -29,7 +30,7 @@ class FTLoginSignUpViewController: UIViewController, ARSignUpFromViewDelegate {
         let gradLayer: CAGradientLayer = CAGradientLayer()
         gradLayer.colors = [UIColor.CustomColor.DEEP_VIOLET.cgColor, UIColor.CustomColor.PURPLE_HTML.cgColor]
         gradLayer.locations = [0.0, 1.0]
-        view.backgroundColor = .clear//UIColor.CustomColor.DEEP_VIOLET
+        view.backgroundColor = .clear
         gradLayer.frame = view.frame
         view.layer.insertSublayer(gradLayer, at: 0)
         
@@ -49,7 +50,7 @@ class FTLoginSignUpViewController: UIViewController, ARSignUpFromViewDelegate {
     
     func presentMainApp () {
         let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let destView: ViewController = mainStoryboard.instantiateInitialViewController() as! ViewController
+        let destView: RootViewController = mainStoryboard.instantiateInitialViewController() as! RootViewController
         destView.transitioningDelegate = self
         present(destView, animated: true, completion: nil)
     }

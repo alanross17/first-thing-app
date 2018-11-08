@@ -17,13 +17,15 @@
 		E7884B9F21896C5500AEE4AC /* icons8-lock-50.png in Resources */ = {isa = PBXBuildFile; fileRef = E7884B9921896C5500AEE4AC /* icons8-lock-50.png */; };
 		E7884BA221896EEF00AEE4AC /* UIColor+HEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7884BA121896EEF00AEE4AC /* UIColor+HEX.swift */; };
 		E7884BA42189708E00AEE4AC /* UIColor+CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7884BA32189708E00AEE4AC /* UIColor+CustomColors.swift */; };
+		E7884BA62189F2AA00AEE4AC /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7884BA52189F2AA00AEE4AC /* RootViewController.swift */; };
+		E7884BAA218B442200AEE4AC /* FTSlideInListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7884BA9218B442200AEE4AC /* FTSlideInListView.swift */; };
+		E7884BAC218B444D00AEE4AC /* FTSlideInListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7884BAB218B444D00AEE4AC /* FTSlideInListView.xib */; };
 		E78D22DD2189237A00FE4762 /* ARLoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78D22DA2189237900FE4762 /* ARLoadingButton.swift */; };
 		E78D22DE2189237A00FE4762 /* PopAnimatior.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78D22DB2189237A00FE4762 /* PopAnimatior.swift */; };
 		E78D22DF2189237A00FE4762 /* ARMinimalTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78D22DC2189237A00FE4762 /* ARMinimalTextField.swift */; };
 		E78D22E4218923DA00FE4762 /* ARSignUpFormView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E78D22E2218923DA00FE4762 /* ARSignUpFormView.xib */; };
 		E78D22E5218923DA00FE4762 /* ARSignUpFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78D22E3218923DA00FE4762 /* ARSignUpFormView.swift */; };
 		E7DE895021880D9500E0D5D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DE894F21880D9500E0D5D8 /* AppDelegate.swift */; };
-		E7DE895221880D9500E0D5D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DE895121880D9500E0D5D8 /* ViewController.swift */; };
 		E7DE895521880D9500E0D5D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7DE895321880D9500E0D5D8 /* Main.storyboard */; };
 		E7DE895821880D9500E0D5D8 /* First_Thing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7DE895621880D9500E0D5D8 /* First_Thing.xcdatamodeld */; };
 		E7DE895A21880D9600E0D5D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7DE895921880D9600E0D5D8 /* Assets.xcassets */; };
@@ -60,6 +62,9 @@
 		E7884B9921896C5500AEE4AC /* icons8-lock-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-lock-50.png"; sourceTree = "<group>"; };
 		E7884BA121896EEF00AEE4AC /* UIColor+HEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HEX.swift"; sourceTree = "<group>"; };
 		E7884BA32189708E00AEE4AC /* UIColor+CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColors.swift"; sourceTree = "<group>"; };
+		E7884BA52189F2AA00AEE4AC /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		E7884BA9218B442200AEE4AC /* FTSlideInListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTSlideInListView.swift; sourceTree = "<group>"; };
+		E7884BAB218B444D00AEE4AC /* FTSlideInListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTSlideInListView.xib; sourceTree = "<group>"; };
 		E78D22DA2189237900FE4762 /* ARLoadingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARLoadingButton.swift; sourceTree = "<group>"; };
 		E78D22DB2189237A00FE4762 /* PopAnimatior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopAnimatior.swift; sourceTree = "<group>"; };
 		E78D22DC2189237A00FE4762 /* ARMinimalTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARMinimalTextField.swift; sourceTree = "<group>"; };
@@ -67,7 +72,6 @@
 		E78D22E3218923DA00FE4762 /* ARSignUpFormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARSignUpFormView.swift; sourceTree = "<group>"; };
 		E7DE894C21880D9500E0D5D8 /* First Thing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First Thing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7DE894F21880D9500E0D5D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E7DE895121880D9500E0D5D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E7DE895421880D9500E0D5D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E7DE895721880D9500E0D5D8 /* First_Thing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = First_Thing.xcdatamodel; sourceTree = "<group>"; };
 		E7DE895921880D9600E0D5D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -119,7 +123,7 @@
 		E7884B8D218967EB00AEE4AC /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				E7DE895121880D9500E0D5D8 /* ViewController.swift */,
+				E7884BA72189F2B300AEE4AC /* Main App Screens */,
 				E7884B8E2189680C00AEE4AC /* Auth */,
 			);
 			path = "View Controllers";
@@ -155,9 +159,27 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		E7884BA72189F2B300AEE4AC /* Main App Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E7884BA52189F2AA00AEE4AC /* RootViewController.swift */,
+			);
+			path = "Main App Screens";
+			sourceTree = "<group>";
+		};
+		E7884BA8218B433D00AEE4AC /* Todo-List */ = {
+			isa = PBXGroup;
+			children = (
+				E7884BA9218B442200AEE4AC /* FTSlideInListView.swift */,
+				E7884BAB218B444D00AEE4AC /* FTSlideInListView.xib */,
+			);
+			path = "Todo-List";
+			sourceTree = "<group>";
+		};
 		E78D22E02189238300FE4762 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				E7884BA8218B433D00AEE4AC /* Todo-List */,
 				E78D22E1218923CE00FE4762 /* Auth */,
 				E78D22DA2189237900FE4762 /* ARLoadingButton.swift */,
 				E78D22DC2189237A00FE4762 /* ARMinimalTextField.swift */,
@@ -344,6 +366,7 @@
 				E7884B9D21896C5500AEE4AC /* icons8-new-post-50.png in Resources */,
 				E7884B9F21896C5500AEE4AC /* icons8-lock-50.png in Resources */,
 				E7DE895521880D9500E0D5D8 /* Main.storyboard in Resources */,
+				E7884BAC218B444D00AEE4AC /* FTSlideInListView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7884BA62189F2AA00AEE4AC /* RootViewController.swift in Sources */,
 				E78D22DF2189237A00FE4762 /* ARMinimalTextField.swift in Sources */,
 				E7884BA221896EEF00AEE4AC /* UIColor+HEX.swift in Sources */,
 				E7DE895821880D9500E0D5D8 /* First_Thing.xcdatamodeld in Sources */,
@@ -375,7 +399,7 @@
 				E7884B8C218967DC00AEE4AC /* FTLoginSignUpViewController.swift in Sources */,
 				E78D22DD2189237A00FE4762 /* ARLoadingButton.swift in Sources */,
 				E7884BA42189708E00AEE4AC /* UIColor+CustomColors.swift in Sources */,
-				E7DE895221880D9500E0D5D8 /* ViewController.swift in Sources */,
+				E7884BAA218B442200AEE4AC /* FTSlideInListView.swift in Sources */,
 				E7DE895021880D9500E0D5D8 /* AppDelegate.swift in Sources */,
 				E78D22E5218923DA00FE4762 /* ARSignUpFormView.swift in Sources */,
 			);
