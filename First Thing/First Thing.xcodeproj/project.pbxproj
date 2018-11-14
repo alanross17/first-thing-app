@@ -20,6 +20,7 @@
 		E7884BA62189F2AA00AEE4AC /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7884BA52189F2AA00AEE4AC /* RootViewController.swift */; };
 		E7884BAA218B442200AEE4AC /* FTSlideInListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7884BA9218B442200AEE4AC /* FTSlideInListView.swift */; };
 		E7884BAC218B444D00AEE4AC /* FTSlideInListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7884BAB218B444D00AEE4AC /* FTSlideInListView.xib */; };
+		E78B8D2921951AD300F6344C /* UISpringTimingParameters+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78B8D2821951AD300F6344C /* UISpringTimingParameters+Extras.swift */; };
 		E78D22DD2189237A00FE4762 /* ARLoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78D22DA2189237900FE4762 /* ARLoadingButton.swift */; };
 		E78D22DE2189237A00FE4762 /* PopAnimatior.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78D22DB2189237A00FE4762 /* PopAnimatior.swift */; };
 		E78D22DF2189237A00FE4762 /* ARMinimalTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78D22DC2189237A00FE4762 /* ARMinimalTextField.swift */; };
@@ -65,6 +66,7 @@
 		E7884BA52189F2AA00AEE4AC /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		E7884BA9218B442200AEE4AC /* FTSlideInListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTSlideInListView.swift; sourceTree = "<group>"; };
 		E7884BAB218B444D00AEE4AC /* FTSlideInListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FTSlideInListView.xib; sourceTree = "<group>"; };
+		E78B8D2821951AD300F6344C /* UISpringTimingParameters+Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISpringTimingParameters+Extras.swift"; sourceTree = "<group>"; };
 		E78D22DA2189237900FE4762 /* ARLoadingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARLoadingButton.swift; sourceTree = "<group>"; };
 		E78D22DB2189237A00FE4762 /* PopAnimatior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopAnimatior.swift; sourceTree = "<group>"; };
 		E78D22DC2189237A00FE4762 /* ARMinimalTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARMinimalTextField.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 			children = (
 				E7884BA121896EEF00AEE4AC /* UIColor+HEX.swift */,
 				E7884BA32189708E00AEE4AC /* UIColor+CustomColors.swift */,
+				E78B8D2821951AD300F6344C /* UISpringTimingParameters+Extras.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -394,6 +397,7 @@
 				E7884BA62189F2AA00AEE4AC /* RootViewController.swift in Sources */,
 				E78D22DF2189237A00FE4762 /* ARMinimalTextField.swift in Sources */,
 				E7884BA221896EEF00AEE4AC /* UIColor+HEX.swift in Sources */,
+				E78B8D2921951AD300F6344C /* UISpringTimingParameters+Extras.swift in Sources */,
 				E7DE895821880D9500E0D5D8 /* First_Thing.xcdatamodeld in Sources */,
 				E78D22DE2189237A00FE4762 /* PopAnimatior.swift in Sources */,
 				E7884B8C218967DC00AEE4AC /* FTLoginSignUpViewController.swift in Sources */,

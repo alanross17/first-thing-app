@@ -8,9 +8,10 @@
 
 import UIKit
 
-class FTSlideInListView: UIView {
-
+class FTSlideInListView: UIView, UITableViewDelegate, UITableViewDataSource {
+    
     @IBOutlet var contentView: UIView!
+    @IBOutlet weak var tableView: UITableView!
     
     override init(frame: CGRect) { // For using custom view in code
         super.init(frame: frame)
@@ -37,6 +38,31 @@ class FTSlideInListView: UIView {
         contentView.backgroundColor = .clear
         gradLayer.frame = contentView.frame
         contentView.layer.insertSublayer(gradLayer, at: 0)
+        
+        // init table view
+        tableView.delegate = self
+        tableView.dataSource = self
+        
+        tableView.backgroundColor = .clear
+    }
+    
+    // table view data soruce (eventually move to seperate file)...
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 3
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = UITableViewCell(style: .default, reuseIdentifier: "tableCell")
+        
+        cell.backgroundColor = .clear
+        cell.textLabel?.textColor = .white
+        cell.textLabel?.text = "\(indexPath.row) lol a cell..."
+        
+        return cell
     }
 
 }
